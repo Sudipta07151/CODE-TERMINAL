@@ -59,6 +59,7 @@ body
   bottom: 120px;
   right:900px;
   max-width: 200px;
+  display:inline-block;
 }
 .plane_pic
 {
