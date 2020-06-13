@@ -3,16 +3,11 @@ title
   font-family: 'Merriweather', serif;
   color: red;
 }
-body
-{
-  text-align: center;
-}
 .top-container
 {
   padding-top: 80px;
   background-color: #f2ed6f;
-  position:absolute;
-  
+  position:relative;
 }
 .top_img
 {
@@ -33,7 +28,9 @@ body
 }
 body
 {
+  text-align: center;
   margin: 0px;
+  position: relative;
 }
 .wifi_img
 {
@@ -59,7 +56,6 @@ body
   bottom: 120px;
   right:900px;
   max-width: 200px;
-  display:inline-block;
 }
 .plane_pic
 {
