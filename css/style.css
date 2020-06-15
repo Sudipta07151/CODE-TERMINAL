@@ -1,74 +1,90 @@
-title
-{
-  font-family: 'Merriweather', serif;
-  color: red;
-}
-.top-container
-{
-  padding-top: 80px;
-  background-color: #f2ed6f;
-  position:relative;
-}
-.top_img
-{
- margin: 0 auto;
- display: block;
- position: relative;
- top: 35px;
- max-width: 400px;
-}
 .head_text
 {
-  margin-top: 5px;
-  margin-bottom: 2px;
-  font-family: 'Permanent Marker', cursive;
-  font-size: 80px;
-  color:#d63447;
-  display:inline-block;
+  font-family: 'Pangolin', cursive;
+  color:#2fc4b2;
+  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+.main_container
+{
+  background-color:#d4f3ef;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
 body
 {
-  text-align: center;
-  margin: 0px;
+ margin: 0 auto;
+ max-width: 100%;
+ text-align: center;
+}
+
+.main_img
+{
+  max-width: 20%;
+  padding-top:3%;
+  height: auto;
   position: relative;
+  top: 35px;
+}
+.slogan_text
+{
+  font-family: 'Pangolin', cursive;
+  color: #12947f;
+  font-size:35px;
+  display: inline-block;
+  margin-top: 20px;
 }
 .wifi_img
 {
-  max-width:80px;
-  max-height: 80px;
+  max-width: 2.5%;
+  height: auto;
   position: relative;
-  left:40px;
+  margin-bottom: 2%;
 }
-.slogan
-{
-  font-weight: bolder;
-  font-style: normal;
-  font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
-  margin-top: 5px;
-  position: relative;
-  bottom:5px;
-  color:#f57b51
-}
-.airport_pic
+
+.middle_container
 {
   position: relative;
-  bottom: 120px;
-  right:900px;
-  max-width: 200px;
 }
-.plane_pic
+
+.bigboy_img
 {
-  max-width: 120px;
-  bottom: 400px;
-  position:relative;
+  max-width: 30%;
+  height: auto;
+  position: relative;
   display: inline-block;
 }
-.boy_pic
+.airport_img
+{
+  max-width: 5%;
+  height: auto;
+  display: inline-block;
+  position:absolute;
+  left: 32%;
+  bottom:15%;
+}
+
+.plane_img
+{
+  max-width: 3.5%;
+  height: auto;
+  position:absolute;
+  right:35%;
+  transform: rotate(3deg);
+}
+
+.bottom_container
 {
   position:relative;
-  left:125px;
-  display: inline-block;
-  max-width:auto;
-  max-height: 600px;
+}
+
+.brand
+{
+  font-family: 'VT323', monospace;
+  
 }
